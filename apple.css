@@ -55,6 +55,7 @@ body{
  }
  .image3{
     margin: 0%;
+    
  }
  .text{
     color: white;
@@ -110,12 +111,18 @@ body{
  .watch2{
     position: relative;
     bottom:400px ;
+    height: 600px;
  }
  .image7{
-    height:200px;
-    width: 100%;
+    height:500px;
+    
     background-size: cover;
-    position: relative;
+    background-image: url("cc.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position:relative;
+    left: 100px;
+    top: 50px;
  
     
  }
@@ -238,4 +245,12 @@ body{
  }
  .foot{
     height: 379px;
+ }
+ .b1{
+   background-color: white;
+   color: black;
+ }
+ .b2{
+   background-color: white;
+   color: #000;
  }
